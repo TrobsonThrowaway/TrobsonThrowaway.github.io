@@ -12,6 +12,7 @@ my_image.onclick = function() {
 }
 
 
+
 let my_heading = document.querySelector('h1');
 
 function set_user_name() {

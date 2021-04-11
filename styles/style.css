@@ -1,0 +1,35 @@
+html { /* All elements within <html></html> will inherit same font-size and font-family */
+  font-size: 12px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #00539F;
+}
+
+
+body {
+ width: 650px;
+ margin: 0 auto; /* auto divides available horizontal space evenly between left and right */
+ background-color: #FF9500;
+ padding: 0 20px 20px 20px;
+ border 5px solid black;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0; /* Eliminate the gap that exists */
+}
+
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+img {
+  display: block; /* Inline, so not possible to apply margin, so give it "block" behavior, like body.
+  margin: 0 auto; 
+}
+
